@@ -40,6 +40,10 @@
   cursor: pointer;
 }
 
+.logo-menu-img {
+  width: 15%;
+}
+
 .conteudo-banner h1 {
   font-weight: 800;
   font-size: 40px;
@@ -88,13 +92,13 @@
 .li-menu {
   list-style: none;
   display: flex;
-  gap: 50px;
+  gap: 2em;
 }
 .div-container-menu {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 50px;
+  gap: 2em;
 }
 
 .li-menu a {
@@ -381,7 +385,7 @@ h2 {
 }
 
 .container-money {
-  min-width: 1260px;
+  min-width: 320px;
   margin: 0 auto 10em;
   max-width: 1260px;
   display: flex;
